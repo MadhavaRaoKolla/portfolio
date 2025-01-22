@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        yellow: "0 0 1px 1px rgba(250, 204, 21, 0.5)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
