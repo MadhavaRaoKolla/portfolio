@@ -7,6 +7,7 @@ const Home = () => {
       <nav className="flex flex-col justify-center items-center px-16 py-5 gap-4">
         <div className="flex space-x-10">
           <Navbar />
+          <p>hello</p>
         </div>
       </nav>
     </main>
