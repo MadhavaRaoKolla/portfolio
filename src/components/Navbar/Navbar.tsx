@@ -14,7 +14,7 @@ const Navbar: React.FC<NavProps> = ({ className }) => {
     { href: "#education", value: "EDUCATION" },
     { href: "#projects", value: "PROJECTS" },
     { href: "#skills", value: "SKILLS" },
-    { href: "#contact", value: "CONCAT" },
+    { href: "#contact", value: "CONTACT" },
   ];
   const linksRef = useRef<HTMLAnchorElement[]>([]);
   const headRef = useRef<HTMLAnchorElement | null>(null);
