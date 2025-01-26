@@ -59,7 +59,7 @@ const Navbar: React.FC<NavProps> = ({ className }) => {
 
   return (
     <nav
-      className={`flex justify-between items-center px-16 py-3 ${className}`}
+      className={`flex justify-between items-center px-12 py-3 fixed w-full bg-transparent ${className}`}
     >
       <Link ref={headRef} href={"/"} className="text-4xl font-semibold">
         Madhav

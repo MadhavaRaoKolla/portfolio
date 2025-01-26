@@ -43,7 +43,7 @@ const Landing = () => {
   }, []);
   return (
     <section
-      className="h-[600px] flex justify-start items-center"
+      className="flex justify-start items-center h-screen"
       // style={{
       //   backgroundImage: `url('/face.jpeg')`,
       // bg-cover bg-center

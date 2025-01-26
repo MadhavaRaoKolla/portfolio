@@ -1,24 +1,13 @@
-// import Form from "@/components/Form/Form";
-// import YupForm from "@/components/Form/YupForm";
-// import ZodForm from "@/components/Form/ZodForm";
 import Landing from "@/components/home/Landing";
-import Navbar from "@/components/Navbar/Navbar";
+import Layout from "@/components/Layout/Layout";
 import React from "react";
 
 const Home = () => {
   return (
     <main className="h-full">
-      <div className="flex flex-col">
-        <Navbar />
+      <Layout>
         <Landing />
-        {/* <div className="flex gap-3">
-          <Form />
-          <div className="w-full">
-            <YupForm />
-            <ZodForm />
-          </div>
-        </div> */}
-      </div>
+      </Layout>
     </main>
   );
 };
