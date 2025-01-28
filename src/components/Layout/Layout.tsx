@@ -6,10 +6,8 @@ const Layout: React.FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className="relative">
       <Navbar />
-      <div className="flex">
-        <Links />
-        <div className="w-full">{children}</div>
-      </div>
+      <Links />
+      <div>{children}</div>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { NavFields } from "./Nav.types";
 import Link from "next/link";
 import gsap from "gsap";
+import Image from "next/image";
 
 interface NavProps {
   className?: string;
@@ -63,7 +64,7 @@ const Navbar: React.FC<NavProps> = ({ className }) => {
       <Link ref={headRef} href={"/"} className="text-4xl font-semibold">
         Madhav
       </Link>
-      <div className="flex justify-center gap-10 w-full">
+      <div className="flex justify-center space-x-10 flex-1">
         {navFields.map((item, index) => (
           <Link
             key={index}
@@ -77,6 +78,13 @@ const Navbar: React.FC<NavProps> = ({ className }) => {
           </Link>
         ))}
       </div>
+      <button
+        ref={buttonRef}
+        className="flex justify-center items-center gap-2 px-2 py-1 border rounded-full cursor-pointer shadow-yellow"
+      >
+        <span className="">Resume</span>
+        <Image src={"/download.svg"} alt="Download" width={20} height={5} />
+      </button>
     </nav>
   );
 };
