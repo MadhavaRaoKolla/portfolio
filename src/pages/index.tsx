@@ -1,4 +1,4 @@
-import Contact from "@/components/Contact/Contact";
+// import Contact from "@/components/Contact/Contact";
 // import Form from "@/components/Form/Form";
 import Landing from "@/components/home/Landing";
 import Layout from "@/components/Layout/Layout";
@@ -11,7 +11,7 @@ const Home = () => {
       <Layout>
         <Landing />
         <Skills />
-        <Contact />
+        {/* <Contact /> */}
         {/* <Form /> */}
       </Layout>
     </main>
